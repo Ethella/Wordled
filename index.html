@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="/image/favicon.gif" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/keyboard-style.css" />
+    <script src="/js/input.js"></script>
+    <script src="/js/check.js"></script>
+    <title>Wordle - Jimmy Summer</title>
+  </head>
+  <body>
+    <div id="title">
+      Wordle
+    </div>
+    <div class="container">
+      <div class="row" id="row1">
+        <div class="cell" id="R1C1"></div>
+        <div class="cell" id="R1C2"></div>
+        <div class="cell" id="R1C3"></div>
+        <div class="cell" id="R1C4"></div>
+        <div class="cell" id="R1C5"></div>
+      </div>
+      <div class="row" id="row2">
+        <div class="cell" id="R2C1"></div>
+        <div class="cell" id="R2C2"></div>
+        <div class="cell" id="R2C3"></div>
+        <div class="cell" id="R2C4"></div>
+        <div class="cell" id="R2C5"></div>
+      </div>
+      <div class="row" id="row3">
+        <div class="cell" id="R3C1"></div>
+        <div class="cell" id="R3C2"></div>
+        <div class="cell" id="R3C3"></div>
+        <div class="cell" id="R3C4"></div>
+        <div class="cell" id="R3C5"></div>
+      </div>
+      <div class="row" id="row4">
+        <div class="cell" id="R4C1"></div>
+        <div class="cell" id="R4C2"></div>
+        <div class="cell" id="R4C3"></div>
+        <div class="cell" id="R4C4"></div>
+        <div class="cell" id="R4C5"></div>
+      </div>
+      <div class="row" id="row5">
+        <div class="cell" id="R5C1"></div>
+        <div class="cell" id="R5C2"></div>
+        <div class="cell" id="R5C3"></div>
+        <div class="cell" id="R5C4"></div>
+        <div class="cell" id="R5C5"></div>
+      </div>
+      <div class="row" id="row6">
+        <div class="cell" id="R6C1"></div>
+        <div class="cell" id="R6C2"></div>
+        <div class="cell" id="R6C3"></div>
+        <div class="cell" id="R6C4"></div>
+        <div class="cell" id="R6C5"></div>
+      </div>
+    </div>
+    <div class="sentenseNotice" id="alertSentense">Start guessing!</div>
+    <div class="keyboard-container">
+      <div class="keyboard-row">
+        <div class="keyboard-button" onclick="clickLetterButton('Q')">Q</div>
+        <div class="keyboard-button" onclick="clickLetterButton('W')">W</div>
+        <div class="keyboard-button" onclick="clickLetterButton('E')">E</div>
+        <div class="keyboard-button" onclick="clickLetterButton('R')">R</div>
+        <div class="keyboard-button" onclick="clickLetterButton('T')">T</div>
+        <div class="keyboard-button" onclick="clickLetterButton('Y')">Y</div>
+        <div class="keyboard-button" onclick="clickLetterButton('U')">U</div>
+        <div class="keyboard-button" onclick="clickLetterButton('I')">I</div>
+        <div class="keyboard-button" onclick="clickLetterButton('O')">O</div>
+        <div class="keyboard-button" onclick="clickLetterButton('P')">P</div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-button" onclick="clickLetterButton('A')">A</div>
+        <div class="keyboard-button" onclick="clickLetterButton('S')">S</div>
+        <div class="keyboard-button" onclick="clickLetterButton('D')">D</div>
+        <div class="keyboard-button" onclick="clickLetterButton('F')">F</div>
+        <div class="keyboard-button" onclick="clickLetterButton('G')">G</div>
+        <div class="keyboard-button" onclick="clickLetterButton('H')">H</div>
+        <div class="keyboard-button" onclick="clickLetterButton('J')">J</div>
+        <div class="keyboard-button" onclick="clickLetterButton('K')">K</div>
+        <div class="keyboard-button" onclick="clickLetterButton('L')">L</div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-button Wider" onclick="clickBackButton()">
+          back
+        </div>
+        <div class="keyboard-button" onclick="clickLetterButton('Z')">Z</div>
+        <div class="keyboard-button" onclick="clickLetterButton('X')">X</div>
+        <div class="keyboard-button" onclick="clickLetterButton('C')">C</div>
+        <div class="keyboard-button" onclick="clickLetterButton('V')">V</div>
+        <div class="keyboard-button" onclick="clickLetterButton('B')">B</div>
+        <div class="keyboard-button" onclick="clickLetterButton('N')">N</div>
+        <div class="keyboard-button" onclick="clickLetterButton('M')">M</div>
+        <div class="keyboard-button Wider" onclick="showDocumentResult()">
+          go
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    Author: Jimmy Summer
+  </footer>
+  <br />
+</html>

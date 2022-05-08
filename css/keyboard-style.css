@@ -1,0 +1,56 @@
+.keyboard-button {
+  background-color: rgb(238, 255, 0);
+  border-radius: 10px;
+  color: black;
+  border: black 4px solid;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 28px;
+  flex-direction: column-reverse;
+  display: flex;
+  align-items: center;
+}
+
+.keyboard-row {
+  /* border: red 2px solid; */
+  border-bottom: white 20px solid;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-around;
+  /* justify-content: ; */
+}
+
+.Wider {
+  background-color: rgb(238, 255, 0);
+  border-radius: 10px;
+  color: black;
+  border: black 4px solid;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  font-size: 25px;
+  flex-direction: column-reverse;
+  display: flex;
+  align-items: center;
+}
+.keyboard-row {
+  /* border: red 2px solid; */
+  border-bottom: white 20px solid;
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  justify-content: space-around;
+  /* justify-content: ; */
+}
+
+.keyboard-container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 40px;
+  border: rgb(238, 255, 0) 4px solid;
+  display: flex;
+  flex-direction: column;
+  font-family: Calibri;
+}
